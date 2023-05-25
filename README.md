@@ -61,4 +61,19 @@ x_arr, t_arr = x_vert(t, dx, a, n=num, orientation='forward')
 y_arr = y_vert(t, D, dy, t_arr, orientation='forward')
 ```
 
+
 Feel free to experiment with different parameter values and cases of movement to visualize and analyze the motion of the industrial arm.
+
+
+## CAD Models of Robotic Arm
+![Picture9](https://github.com/sergiicodes/Loader-CAM-arm-Motion-Calculator/assets/79073281/6449165b-ed15-4945-8936-4d21d54d3e63)
+
+![Picture7](https://github.com/sergiicodes/Loader-CAM-arm-Motion-Calculator/assets/79073281/764bbdc6-7c45-4ebf-8bf3-3a861ab6839a)
+
+![Picture6](https://github.com/sergiicodes/Loader-CAM-arm-Motion-Calculator/assets/79073281/c3bf92f4-de9f-413e-970c-604c1244b3d3)
+
+![Picture4](https://github.com/sergiicodes/Loader-CAM-arm-Motion-Calculator/assets/79073281/1394b009-a0b4-4861-a345-64b6508d7c1d)
+
+![Picture3](https://github.com/sergiicodes/Loader-CAM-arm-Motion-Calculator/assets/79073281/2fc90867-03bf-4885-9b4e-ac6c8dbecb5c)
+
+![Picture10](https://github.com/sergiicodes/Loader-CAM-arm-Motion-Calculator/assets/79073281/3ed13b3e-46b1-4586-b499-554f7792cbf3)
