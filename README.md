@@ -1,6 +1,10 @@
 # Industrial Arm Motion Plotter
 
-This Python code plots the motion of an industrial arm for different cases of movement. It utilizes the NumPy and Matplotlib libraries to calculate and visualize the positions and angles of the loader arm tool.
+This is one of the projects I am currently working on as an R&D Engineer for a manufacturing company. The Python code presented here is specifically designed to track the motion of a robotic arm called a loader. The loader's main function is to push packaged products into cardboard cases. 
+
+The Industrial Arm Motion Plotter was developed to analyze and visualize the loader arm's position and motion. By using this Python program, other engineers, including controls and electrical engineers, in the department can gain a better understanding of the loader's movements. 
+
+The code utilizes the NumPy and Matplotlib libraries to calculate and plot the positions and angles of the loader arm tool. It supports various types of motion, including elliptical, horizontal, and vertical paths. Additionally, it includes functions to validate the constructed path and ensure it falls within the working window.
 
 ## Features
 
@@ -43,16 +47,18 @@ Below are a few examples of how the code can be utilized:
 ```python
 x_arr, t_arr = x_ellipse(t, dx, a, n=num, orientation='forward')
 y_arr = y_ellipse(t, dy, D, t_arr, orientation='forward')
-...
+```
 
 2. Simulating a horizontal motion for the arm:
+```python
 x_arr, t_arr = x_horiz(t, dx, a, n=num)
 y_arr = y_horiz(t, D, t_arr)
-...
+```
 
 3. Enabling the vertical motion of the arm:
+```python
 x_arr, t_arr = x_vert(t, dx, a, n=num, orientation='forward')
 y_arr = y_vert(t, D, dy, t_arr, orientation='forward')
-...
+```
 
 Feel free to experiment with different parameter values and cases of movement to visualize and analyze the motion of the industrial arm.
